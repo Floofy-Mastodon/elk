@@ -26,19 +26,10 @@ COPY . ./
 RUN pnpm i --frozen-lockfile
 
 # Build
+ENV NUXT_PUBLIC_DEFAULT_SERVER="floofy.tech"
 RUN pnpm build
 
 FROM base AS runner
-
-ARG UID=911
-ARG GID=911
-
-# Create a dedicated user and group
-RUN set -eux; \
-    addgroup -g $GID elk; \
-    adduser -u $UID -D -G elk elk;
-
-USER elk
 
 ENV NODE_ENV=production
 
