@@ -213,13 +213,9 @@ onDeactivated(() => {
 <template>
   <div v-if="isHydrated && currentUser" flex="~ col gap-4" py3 px2 sm:px4 aria-roledescription="publish-widget">
     <template v-if="draft.editingStatus">
-      <div flex="~ col gap-1">
-        <div id="state-editing" text-secondary self-center>
-          {{ $t('state.editing') }}
-        </div>
-        <StatusCard :status="draft.editingStatus" :actions="false" :hover="false" is-preview px-0 />
+      <div id="state-editing" text-secondary self-center>
+        {{ $t('state.editing') }}
       </div>
-      <div border="b dashed gray/40" />
     </template>
 
     <div flex gap-3 flex-1>
@@ -373,7 +369,7 @@ onDeactivated(() => {
             @select="insertEmoji"
             @select-custom="insertCustomEmoji"
           >
-            <button btn-action-icon :title="$t('tooltip.emoji')">
+            <button btn-action-icon :title="$t('tooltip.emojis')" :aria-label="$t('tooltip.add_emojis')">
               <div i-ri:emotion-line />
             </button>
           </PublishEmojiPicker>
