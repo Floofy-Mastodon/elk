@@ -41,7 +41,8 @@
     "unfollow": "取消关注",
     "unmute": "取消屏蔽",
     "view_other_followers": "其他站点上的关注者可能不会在这里显示。",
-    "view_other_following": "其他站点上正在关注的人可能不会在这里显示。"
+    "view_other_following": "其他站点上正在关注的人可能不会在这里显示。",
+    "withdraw_follow_request": "撤销关注请求"
   },
   "action": {
     "apply": "应用",
@@ -245,6 +246,7 @@
     "pin_on_profile": "置顶在个人资料上",
     "remove_personal_note": "给 {0} 移除私人备注",
     "report_account": "举报 {0}",
+    "share_account": "分享 {0}",
     "share_post": "分享这条帖文",
     "show_favourited_and_boosted_by": "展示谁喜欢和转发了",
     "show_reblogs": "显示来自 {0} 的转发",
@@ -307,8 +309,7 @@
     "content_warning": "写下你的警告",
     "default_1": "在想些什么？",
     "reply_to_account": "回复 {0}",
-    "replying": "回复",
-    "the_thread": "这个帖文"
+    "replying": "回复"
   },
   "polls": {
     "allow_multiple": "允许多选",
@@ -569,7 +570,6 @@
     "edited": "在 {0} 编辑了",
     "favourited_by": "被喜欢",
     "filter_hidden_phrase": "筛选依据",
-    "filter_removed_phrase": "从筛选中移除",
     "filter_show_anyway": "仍然展示",
     "img_alt": {
       "ALT": "ALT",
@@ -582,7 +582,6 @@
       "ends": "将在 {0} 结束",
       "finished": "已在 {0} 结束"
     },
-    "reblogged": "{0} 转发了",
     "replying_to": "回复{0}",
     "show_full_thread": "显示完整贴文串",
     "someone": "某人",
