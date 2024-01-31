@@ -7,12 +7,15 @@
     "route_loaded": "页面{0}已加载"
   },
   "account": {
+    "authorize": "同意关注请求",
+    "authorized": "你同意了关注请求",
     "avatar_description": "{0} 的头像",
     "blocked_by": "您已被此用户拉黑",
     "blocked_domains": "已拉黑的域名",
     "blocked_users": "已拉黑的用户",
     "blocking": "已拉黑",
     "bot": "机器人",
+    "copy_account_name": "复制账户名",
     "favourites": "喜欢的帖文",
     "follow": "关注",
     "follow_back": "回关",
@@ -36,7 +39,10 @@
     "profile_description": "{0} 的个人资料头图",
     "profile_personal_note": "私人备注",
     "profile_unavailable": "个人资料不可见",
+    "reject": "拒绝关注请求",
+    "rejected": "你拒绝了关注请求",
     "request_follow": "请求关注",
+    "requested": "{0} 向你发送了关注请求",
     "unblock": "取消拉黑",
     "unfollow": "取消关注",
     "unmute": "取消屏蔽",
@@ -113,12 +119,12 @@
     "block_account": {
       "cancel": "取消",
       "confirm": "拉黑",
-      "title": "你确定拉黑 {0} 吗？"
+      "description": "你确定拉黑 {0} 吗？"
     },
     "block_domain": {
       "cancel": "取消",
       "confirm": "拉黑",
-      "title": "你确定拉黑域名 {0} 吗？"
+      "description": "你确定拉黑域名 {0} 吗？"
     },
     "common": {
       "cancel": "否",
@@ -127,27 +133,27 @@
     "delete_list": {
       "cancel": "取消",
       "confirm": "删除",
-      "title": "你确定要删除 \"{0}\" 列表吗？"
+      "description": "你确定要删除 \"{0}\" 列表吗？"
     },
     "delete_posts": {
       "cancel": "取消",
       "confirm": "删除",
-      "title": "你确定要删除这条帖文吗？"
+      "description": "你确定要删除这条帖文吗？"
     },
     "mute_account": {
       "cancel": "取消",
       "confirm": "屏蔽",
-      "title": "你确定屏蔽 {0} 吗？"
+      "description": "你确定屏蔽 {0} 吗？"
     },
     "show_reblogs": {
       "cancel": "取消",
       "confirm": "显示",
-      "title": "你确定要显示来自 {0} 的转发吗？"
+      "description": "你确定要显示来自 {0} 的转发吗？"
     },
     "unfollow": {
       "cancel": "取消",
       "confirm": "取消关注",
-      "title": "你确定要取消关注吗？"
+      "description": "你确定要取消关注吗？"
     }
   },
   "conversation": {
@@ -534,7 +540,8 @@
       },
       "featured_tags": {
         "description": "人们可以在这些标签下浏览你的公共嘟文。",
-        "label": "精选话题标签"
+        "label": "精选话题标签",
+        "under_construction": "建设中"
       },
       "label": "个人资料"
     },
