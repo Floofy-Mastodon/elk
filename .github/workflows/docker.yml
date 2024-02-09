@@ -10,7 +10,7 @@ on:
       - main
 jobs:
   docker:
-    runs-on: arch-proxmox
+    runs-on: self-hosted
     permissions:
       contents: read
       packages: write
