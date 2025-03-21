@@ -491,7 +491,7 @@
           "favourite": "Favoritos",
           "follow": "Novos seguidores",
           "mention": "Menções",
-          "poll": "Votações",
+          "poll": "Sondagens",
           "reblog": "Partilha das sua publicação",
           "title": "Que notificações quer receber?"
         },
@@ -561,6 +561,7 @@
       "label": "Preferências",
       "optimize_for_low_performance_device": "Otimizar para dispositivos de menor desempenho",
       "title": "Funcionalidades Experimentais",
+      "unmute_videos": "Som de vídeo ativado por predefinição",
       "use_star_favorite_icon": "Utilizar estrela como ícone de favoritos",
       "user_picker": "Selecionador de Utilizador",
       "user_picker_description": "Exibe as imagens de perfil de todas as contas registadas no canto inferior esquerdo para que possa alternar rapidamente entre elas.",
@@ -639,7 +640,8 @@
     "poll": {
       "count": "{0} votos|{0} voto|{0} votos",
       "ends": "termina {0}",
-      "finished": "terminou {0}"
+      "finished": "terminou {0}",
+      "update": "Atualizar sondagem"
     },
     "replying_to": "Em resposta a {0}",
     "show_full_thread": "Mostrar toda a conversa",
