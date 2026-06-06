@@ -197,8 +197,10 @@ export default defineNuxtConfig({
     },
   },
   nitro: {
+    preset: 'cloudflare-module',
     alias: {
       'isomorphic-ws': mockProxy,
+      'punycode/punycode.es6.js': 'punycode',
     },
     esbuild: {
       options: {
